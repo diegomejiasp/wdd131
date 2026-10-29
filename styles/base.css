@@ -19,6 +19,9 @@ header h1 {
 
 #course-title {
     display: block;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
 }
 
 nav ul {
