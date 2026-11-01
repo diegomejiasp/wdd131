@@ -136,3 +136,9 @@ footer {
         grid-template-columns: 2fr 1fr;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .location-content {
+        flex-direction: column;
+    }
+}
