@@ -27,7 +27,7 @@ nav.open {
 header {
     background-color: #49316d;
     color: white;
-    padding: 1rem;
+    padding: 0.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
