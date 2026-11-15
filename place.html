@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Diego Mejias">
+    <meta name="description" content="A responsive webpage that shows information about Argentina">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <title>Argentina | Country page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Argentina</h1>
+
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/patagonia-large.webp">
+                <source media="(min-width: 500px)" srcset="images/patagonia-medium.webp">
+                <img src="images/patagonia-small.webp" alt="Perito Moreno Glacier in Patagonia, Argentina">
+            </picture>
+
+        </div>
+        <section class="data">
+            <h2>Data</h2>
+            <dl>
+                <dt>Area</dt>
+                <dd>2,780,400 km²</dd>
+                <dt>Population</dt>
+                <dd>Approximately 46 million</dd>
+                <dt>Capital</dt>
+                <dd>Buenos Aires</dd>
+                <dt>Currency</dt>
+                <dd>Argentine peso (ARS)</dd>
+                <dt>Languages</dt>
+                <dd>Spanish</dd>
+                <dt>Time zone</dt>
+                <dd>UTC-3</dd>
+                <dt>Calling code</dt>
+                <dd>+54</dd>
+                <dt>Internet TLD</dt>
+                <dd>.ar</dd>
+            </dl>
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <img class="weather-icon" src="images/weather.svg" alt="Icon that shows the weather partly sunny.">
+            <dl>
+                <dt>Temperature</dt>
+                <dd>8°C</dd>
+                <dt>Conditions</dt>
+                <dd>Partly Sunny</dd>
+                <dt>Wind</dt>
+                <dd>14 km/h</dd>
+                <dt>Wind Chill</dt>
+                <dd id="wind-chill">N/A</dd>
+            </dl>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Diego Mejias | Buenos Aires, Argentina</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
