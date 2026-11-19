@@ -1,0 +1,30 @@
+main {
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeFromBlack 2s ease-in;
+}
+
+footer {
+    text-align: center;
+}
+
+@keyframes fadeFromBlack {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
